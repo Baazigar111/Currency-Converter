@@ -1,0 +1,172 @@
+body {
+  background-color: mintcream;
+}
+
+nav {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: pink;
+  padding: 7px;
+}
+
+.container {
+  min-height: 150vh;
+}
+
+footer {
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 50px;
+}
+
+nav li a {
+  text-decoration: none;
+}
+
+nav li a:hover {
+  text-decoration: none;
+  color: greenyellow;
+  transition: all;
+  transition-duration: 500ms;
+}
+
+.container {
+  background-color: #c773b6;
+  min-height: 100vh;
+  max-width: 80vw;
+  margin: auto;
+
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container h1 {
+  text-align: center;
+  color: brown;
+}
+
+.container form label {
+  font-size: 20px;
+  margin-bottom: 1vh;
+  margin-left: 3vh;
+}
+
+
+
+.container form input[type='number'] {
+  width: 150px;
+  margin-bottom: 4vh;
+  margin-left: 3vh;
+}
+
+.container form select {
+  width: 150px;
+  margin-left: 3vh;
+}
+
+.btn {
+  margin-top: 2vh;
+  padding: 6px 9px;
+  border-radius: 9px;
+  width: 85px;
+  background-color: pink;
+  text-align: center;
+  margin:auto;
+}
+
+.output table {
+  text-align: center;
+    width: 70vw;
+    border: 2px solid black;
+    margin-left: 5vh;
+    table-layout: fixed;
+    margin: auto;
+}
+
+.output {
+  /* display: none; */
+}
+
+h2 {
+  text-align: center;
+  font-family: math;
+  color: darkred;
+}
+tr {
+  color: darkred;
+  font-size: 3vh;
+}
+@media (max-width: 600px) {
+  body { font-size: 18px; }
+  nav {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: grey;
+    padding: 4px;
+}
+
+
+.btn {
+  margin-top: 2vh;
+  padding: 6px 9px;
+  border-radius: 9px;
+  /* width: 85px; */
+  background-color: white;
+  /* text-align: left; */
+  margin: 0vh 3vh 0vh 30vh;
+  margin-top: 2vh;
+  /* justify-content: center; */
+  /* padding: inherit; */
+  font-size: 18px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-right: 6vh;
+}
+.container h1 {
+  text-align: center;
+  color: black;
+  font-size: 20px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-right: 6vh;
+}
+.container {
+  background-color: grey;
+  min-height: 100vh;
+}
+h2 {
+  text-align: center;
+  font-family: math;
+  color: black;
+}
+tr {
+  color: black;
+  color: black;
+  color: black;
+  font-size: 3vh;
+}
+nav li a {
+  text-decoration: none;
+  color: black;
+}
+nav ul li {
+  margin: 0 30px;
+  margin-right: px;
+  
+}
+}
